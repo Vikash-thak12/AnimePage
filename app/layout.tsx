@@ -34,7 +34,7 @@ export default function RootLayout({
 
         <Hero />
         {children}
-        <Footer />
+        {/* <Footer /> */}
         </main>
       </body>
     </html>
