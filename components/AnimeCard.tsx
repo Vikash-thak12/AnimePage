@@ -22,7 +22,7 @@ function AnimeCard({ anime }: Prop) {
     <div className="max-w-sm rounded-xl relative w-full cursor-pointer hover:scale-105 transition-all shadow-md shadow-gray-500">
       <div className="relative w-full h-[37vh]">
         <Image
-          src={anime.image.original}
+          src={`https://shikimori.one${anime.image.original}`}
           alt={anime.name}
           fill
           className="rounded-xl object-cover"
